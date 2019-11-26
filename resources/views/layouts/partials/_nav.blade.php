@@ -28,7 +28,7 @@
             <a class="dropdown-item" href="https://Larachat.co">Larachat</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link {{ set_active_route('root_path') }}" href="{{ route('contact_path') }}">Contact</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
